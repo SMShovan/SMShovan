@@ -31,7 +31,7 @@ section.box{
     padding-top: 15px;
     background-color: white;
     width: 800px;
-    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 2px 2px 0 rgba(0, 0, 0, 0.1);
     transition: .15s;
     margin-bottom: 20px;
     border-radius: .5rem;
@@ -43,9 +43,9 @@ section.box{
      transform: scale(1.01);
       
       border-radius: .5rem;
-      background-image: linear-gradient(to bottom, rgba(255,255,255,1), rgba(220,220,220,.6));
+      background-image: linear-gradient(to bottom, rgba(255,255,255,1), rgba(220,220,220,.2));
       
-      box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+      box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.1);
 	  
       
   }

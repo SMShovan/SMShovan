@@ -1,11 +1,11 @@
 * {
 
-    font-family:   Arial;
+    font-family:   "Apercu",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
     text-decoration-color:black;
-    color: #2c2c2c;
+    color: #000000;
     margin-top: 0px;
 	  text-decoration: none;
 	
@@ -36,16 +36,23 @@ section.box{
     margin-bottom: 20px;
     border-radius: .5rem;
     z-index: 2;
+
+    border-color: rgba(0, 0, 0, 0);
+      border-width: 3px;
+      border-style: solid;
     
   }
   
   section.box:hover{
-     transform: scale(1.01);
+     
       
       border-radius: .5rem;
       background-image: linear-gradient(to bottom, rgba(255,255,255,1), rgba(220,220,220,.2));
       
       box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+      border-color: rgba(0, 0, 0, .9);
+      border-width: 3px;
+      border-style: solid;
 	  
       
   }
@@ -115,13 +122,13 @@ section.box{
 
   div.gallery {
     margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
+    border: 0px solid #ccc;
+    float: inline-start;
     width: 250px;
   }
   
   div.gallery:hover {
-    border: 1px solid #777;
+    border: 0px solid #777;
   }
   
   div.gallery img {
@@ -146,10 +153,11 @@ section.box{
    
     
     width: 800px;
-    align-items: center;
+    
     height: 300px;
     overflow: scroll;
-    margin:auto;
+    margin: auto;
+    padding-bottom: 30px;
     
    
  }

@@ -70,7 +70,8 @@ window.PUBLICATIONS_BIB = String.raw`
   author={Tammali, Sowjanya and Khanda, Arindam and Satpathy, Anurag and Shovan, S M and Das, Sajal K},
   booktitle={Proceedings of the 27th International Conference on Distributed Computing and Networking (ICDCN)},
   pages={168--172},
-  year={2026}
+  year={2026},
+  url={https://doi.org/10.1145/3772290.3772301}
 }
 
 @phdthesis{shovan2026dissertation,

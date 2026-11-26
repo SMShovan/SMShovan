@@ -26,10 +26,11 @@ window.PUBLICATIONS_BIB = String.raw`
   topic={hpc},
   selected={true},
   title={Parallel Shortest Hyperpath Update in Large Dynamic Hypergraphs},
-  author={Shovan, S M and Khanda, Arindam and Bhowmick, Sanjukta and Das, Sajal K},
-  booktitle={IA3 Workshop, SC26: International Conference for High Performance Computing, Networking, Storage, and Analysis},
+  url={https://www.computer.org/csdl/proceedings-article/sc-w/2026/122100c131/2lkuFZZ37zi},
+  author={Khanda, Arindam and Shovan, S M and Bhowmick, Sanjukta and Das, Sajal K},
+  booktitle={Proceedings of the SC '26 Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis (IA3 Workshop)},
   year={2026},
-  note={Accepted},
+  note={Equal contribution},
   organization={IEEE}
 }
 
